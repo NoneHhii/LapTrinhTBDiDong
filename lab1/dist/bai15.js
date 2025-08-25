@@ -12,7 +12,7 @@ class Library {
     }
     showInfor() {
         console.log("User: " + this.user.getter() + "\n co nhung cuon sach: ");
-        console.log(this.books.forEach((book) => console.log("- " + book.title)));
+        this.books.forEach((book) => console.log("- " + book.title));
     }
 }
 exports.Library = Library;
