@@ -44,7 +44,7 @@ export const HomeScreen: React.FC = () => {
                     text="LOGIN"
                     type="button"
                     textColor={colors.black}
-                    onPress={() => console.log("login")}
+                    onPress={() => navigation.replace("Login")}
                     styles={styles.btn}
                 />
                 <ButtonComponent

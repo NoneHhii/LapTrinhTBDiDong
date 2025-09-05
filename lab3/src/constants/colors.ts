@@ -8,5 +8,6 @@ export const colors = {
     yellowTheme1: "#BF9A00",
     yellowTheme2: "#FBCB00",
     blueButton: "#386FFC",
-    white: "#fff"
+    white: "#fff",
+    themeLogin: "#d8efde"
 }
