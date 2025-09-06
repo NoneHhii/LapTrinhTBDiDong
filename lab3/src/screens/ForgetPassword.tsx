@@ -45,8 +45,10 @@ export const ForgetPassword: React.FC = () => {
 
                 <TextInput
                     placeholder="Email"
-                    textAlign="center"
                     autoCapitalize="none"
+                    style={{
+                        flex: 1
+                    }}
                 />
             </View>
             <View style={{width: "80%"}}>

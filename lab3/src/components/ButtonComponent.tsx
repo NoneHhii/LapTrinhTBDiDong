@@ -58,7 +58,7 @@ export const ButtonComponent : React.FC<ButtonProps> = ({
             <TextComponent
                 text={text}
                 flex={0}
-                color={type === 'link' ? colors.gray : colors.black}
+                color={type === 'link' ? textColor : colors.black}
                 styles={styles}
             />
         </TouchableOpacity>

@@ -9,5 +9,8 @@ export const colors = {
     yellowTheme2: "#FBCB00",
     blueButton: "#386FFC",
     white: "#fff",
-    themeLogin: "#d8efde"
+    themeLogin: "#d8efde",
+    fbTheme: "#245c8c",
+    zaloTheme: "#1593c4",
+    GreyInput: "#F2F2F2",
 }
